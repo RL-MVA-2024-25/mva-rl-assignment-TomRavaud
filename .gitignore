@@ -127,3 +127,6 @@ dmypy.json
 
 # Score file for grading
 score.txt
+
+# Temporary files
+/tmp/
