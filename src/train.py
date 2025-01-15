@@ -7,8 +7,8 @@ import torch.nn as nn
 import torch.optim as optim
 from gymnasium.wrappers import TimeLimit
 
-# from env_hiv import HIVPatient
-from fast_env_hiv import FastHIVPatient as HIVPatient
+from env_hiv import HIVPatient
+# from fast_env_hiv import FastHIVPatient as HIVPatient
 from evaluate import evaluate_HIV, evaluate_HIV_population
 
 
