@@ -285,7 +285,7 @@ class ProjectAgent:
             path (str, optional): Path to load the model parameters.
                 Defaults to "model.pt".
         """
-        self.policy_net.load_state_dict(torch.load(path))
+        self.policy_net.load_state_dict(torch.load(path, map_location=self.device))
         self.policy_net.eval()
 
 
